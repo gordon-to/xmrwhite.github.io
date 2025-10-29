@@ -1,0 +1,1709 @@
+{
+  "2024-09": {
+    "go": {
+      "added": 2665,
+      "deleted": 8546,
+      "changes": 11211,
+      "commit_counts": 8
+    },
+    "_meta": {
+      "commit_count": 40,
+      "repo_totals": {
+        "strange_satoshi": 7193,
+        "elastic_heyrovsky": 7,
+        "infallible_elbakyan": 36552,
+        "kind_mccarthy": 15,
+        "determined_mahavira": 16,
+        "confident_haibt": 336,
+        "cranky_colden": 50,
+        "cranky_varahamihira": 1,
+        "jolly_grothendieck": 142,
+        "quizzical_hofstadter": 4,
+        "happy_banach": 29,
+        "adoring_chandrasekhar": 2760,
+        "focused_bose": 167,
+        "blissful_visvesvaraya": 31
+      },
+      "repo_languages": {
+        "Go": 1260,
+        "Terraform/Kubernetes/GitHub Actions": 6
+      },
+      "repo_name": "blissful_visvesvaraya",
+      "top_language": "typescript",
+      "top_repo": "infallible_elbakyan",
+      "top_repo_changes": 36552
+    },
+    "Terraform/Kubernetes/GitHub Actions": {
+      "added": 238,
+      "deleted": 189,
+      "changes": 427,
+      "commit_counts": 13
+    },
+    "shell": {
+      "added": 31,
+      "deleted": 4,
+      "changes": 35
+    },
+    "ruby": {
+      "added": 4,
+      "deleted": 2,
+      "changes": 6
+    },
+    "typescript": {
+      "added": 35339,
+      "deleted": 110,
+      "changes": 35449,
+      "commit_counts": 10
+    },
+    "scala": {
+      "added": 80,
+      "deleted": 95,
+      "changes": 175,
+      "commit_counts": 5
+    }
+  },
+  "2024-08": {
+    "go": {
+      "added": 3850,
+      "deleted": 6847,
+      "changes": 10697,
+      "commit_counts": 16
+    },
+    "_meta": {
+      "commit_count": 37,
+      "repo_totals": {
+        "musing_gauss": 1,
+        "infallible_elbakyan": 69250,
+        "confident_haibt": 2380,
+        "determined_golick": 7035,
+        "adoring_chandrasekhar": 1384,
+        "focused_bose": 152,
+        "youthful_heyrovsky": 727,
+        "agitated_mayer": 7,
+        "blissful_visvesvaraya": 46
+      },
+      "repo_languages": {
+        "Go": 1260,
+        "Terraform/Kubernetes/GitHub Actions": 6
+      },
+      "repo_name": "blissful_visvesvaraya",
+      "top_language": "typescript",
+      "top_repo": "infallible_elbakyan",
+      "top_repo_changes": 69250
+    },
+    "Terraform/Kubernetes/GitHub Actions": {
+      "added": 97,
+      "deleted": 83,
+      "changes": 180,
+      "commit_counts": 8
+    },
+    "shell": {
+      "added": 32,
+      "deleted": 32,
+      "changes": 64
+    },
+    "typescript": {
+      "added": 34170,
+      "deleted": 33906,
+      "changes": 68076,
+      "commit_counts": 12
+    },
+    "ruby": {
+      "added": 11,
+      "deleted": 4,
+      "changes": 15
+    },
+    "javascript": {
+      "added": 895,
+      "deleted": 903,
+      "changes": 1798
+    },
+    "scala": {
+      "added": 129,
+      "deleted": 23,
+      "changes": 152,
+      "commit_counts": 1
+    }
+  },
+  "2023-04": {
+    "go": {
+      "added": 1564,
+      "deleted": 1464,
+      "changes": 3028,
+      "commit_counts": 9
+    },
+    "_meta": {
+      "commit_count": 11,
+      "repo_totals": {
+        "musing_gauss": 140,
+        "ecstatic_bassi": 101,
+        "modest_swirles": 2794
+      },
+      "repo_languages": {
+        "Terraform/Kubernetes/GitHub Actions": 51,
+        "Go": 523,
+        "TypeScript": 91,
+        "Shell": 1
+      },
+      "repo_name": "modest_swirles",
+      "top_language": "go",
+      "top_repo": "modest_swirles",
+      "top_repo_changes": 2794
+    },
+    "Terraform/Kubernetes/GitHub Actions": {
+      "added": 3,
+      "deleted": 1,
+      "changes": 4
+    },
+    "shell": {
+      "added": 3,
+      "deleted": 0,
+      "changes": 3
+    }
+  },
+  "2023-03": {
+    "go": {
+      "added": 2518,
+      "deleted": 1121,
+      "changes": 3639,
+      "commit_counts": 11
+    },
+    "_meta": {
+      "commit_count": 15,
+      "repo_totals": {
+        "musing_gauss": 514,
+        "confident_haibt": 3,
+        "suspicious_benz": 5,
+        "modest_swirles": 3166
+      },
+      "repo_languages": {
+        "Terraform/Kubernetes/GitHub Actions": 51,
+        "Go": 523,
+        "TypeScript": 91,
+        "Shell": 1
+      },
+      "repo_name": "modest_swirles",
+      "top_language": "go",
+      "top_repo": "modest_swirles",
+      "top_repo_changes": 3166
+    },
+    "javascript": {
+      "added": 3,
+      "deleted": 0,
+      "changes": 3,
+      "commit_counts": 1
+    },
+    "Terraform/Kubernetes/GitHub Actions": {
+      "added": 41,
+      "deleted": 5,
+      "changes": 46,
+      "commit_counts": 1
+    }
+  },
+  "2025-09": {
+    "go": {
+      "added": 8801,
+      "deleted": 15508,
+      "changes": 24309,
+      "commit_counts": 14
+    },
+    "_meta": {
+      "commit_count": 24,
+      "repo_totals": {
+        "vigorous_swirles": 10,
+        "infallible_elbakyan": 23698,
+        "busy_khorana": 7,
+        "cranky_varahamihira": 2591,
+        "relaxed_saha": 326,
+        "blissful_visvesvaraya": 47
+      },
+      "repo_languages": {
+        "Go": 1260,
+        "Terraform/Kubernetes/GitHub Actions": 6
+      },
+      "repo_name": "blissful_visvesvaraya",
+      "top_language": "go",
+      "top_repo": "infallible_elbakyan",
+      "top_repo_changes": 23698
+    },
+    "ruby": {
+      "added": 157,
+      "deleted": 65,
+      "changes": 222,
+      "commit_counts": 1
+    },
+    "typescript": {
+      "added": 1383,
+      "deleted": 67,
+      "changes": 1450
+    },
+    "Terraform/Kubernetes/GitHub Actions": {
+      "added": 286,
+      "deleted": 86,
+      "changes": 372,
+      "commit_counts": 6
+    },
+    "scala": {
+      "added": 162,
+      "deleted": 164,
+      "changes": 326,
+      "commit_counts": 1
+    }
+  },
+  "2025-06": {
+    "go": {
+      "added": 5375,
+      "deleted": 2637,
+      "changes": 8012,
+      "commit_counts": 28
+    },
+    "_meta": {
+      "commit_count": 57,
+      "repo_totals": {
+        "vigorous_swirles": 479,
+        "infallible_elbakyan": 233,
+        "admiring_wozniak": 1399,
+        "brave_kare": 3,
+        "epic_ride": 33,
+        "distracted_robinson": 1359,
+        "cranky_varahamihira": 5751,
+        "strange_aryabhata": 1104,
+        "agitated_mayer": 18,
+        "blissful_visvesvaraya": 416,
+        "mystifying_wu": 2
+      },
+      "repo_languages": {
+        "Terraform/Kubernetes/GitHub Actions": 70,
+        "Shell": 1,
+        "Scala": 206,
+        "Python": 2
+      },
+      "repo_name": "mystifying_wu",
+      "top_language": "go",
+      "top_repo": "cranky_varahamihira",
+      "top_repo_changes": 5751
+    },
+    "shell": {
+      "added": 233,
+      "deleted": 0,
+      "changes": 233,
+      "commit_counts": 1
+    },
+    "Terraform/Kubernetes/GitHub Actions": {
+      "added": 793,
+      "deleted": 685,
+      "changes": 1478,
+      "commit_counts": 24
+    },
+    "swift": {
+      "added": 127,
+      "deleted": 16,
+      "changes": 143
+    },
+    "rust": {
+      "added": 474,
+      "deleted": 457,
+      "changes": 931,
+      "commit_counts": 3
+    }
+  },
+  "2025-01": {
+    "Terraform/Kubernetes/GitHub Actions": {
+      "added": 243,
+      "deleted": 188,
+      "changes": 431,
+      "commit_counts": 20
+    },
+    "_meta": {
+      "commit_count": 53,
+      "repo_totals": {
+        "hardcore_lederberg": 135,
+        "funny_bose": 2,
+        "compassionate_elion": 168,
+        "mystifying_hawking": 2194,
+        "blissful_visvesvaraya": 81,
+        "vigorous_antonelli": 3,
+        "confident_hugle": 26
+      },
+      "repo_languages": {
+        "Terraform/Kubernetes/GitHub Actions": 72,
+        "Ruby": 1870,
+        "HTML": 1,
+        "CSS": 2,
+        "JavaScript": 2
+      },
+      "repo_name": "confident_hugle",
+      "top_language": "go",
+      "top_repo": "mystifying_hawking",
+      "top_repo_changes": 2194
+    },
+    "scala": {
+      "added": 27,
+      "deleted": 24,
+      "changes": 51,
+      "commit_counts": 6
+    },
+    "go": {
+      "added": 1888,
+      "deleted": 213,
+      "changes": 2101,
+      "commit_counts": 14
+    },
+    "ruby": {
+      "added": 9,
+      "deleted": 17,
+      "changes": 26,
+      "commit_counts": 1
+    }
+  },
+  "2024-02": {
+    "Terraform/Kubernetes/GitHub Actions": {
+      "added": 737,
+      "deleted": 530,
+      "changes": 1267,
+      "commit_counts": 18
+    },
+    "_meta": {
+      "commit_count": 49,
+      "repo_totals": {
+        "elastic_heyrovsky": 42,
+        "vibrant_pike": 12,
+        "determined_mahavira": 254,
+        "lucid_booth": 128,
+        "tender_dubinsky": 1398,
+        "determined_golick": 228,
+        "friendly_neumann": 379,
+        "quizzical_goldwasser": 50,
+        "youthful_heyrovsky": 3062,
+        "mystifying_wu": 228
+      },
+      "repo_languages": {
+        "Terraform/Kubernetes/GitHub Actions": 70,
+        "Shell": 1,
+        "Scala": 206,
+        "Python": 2
+      },
+      "repo_name": "mystifying_wu",
+      "top_language": "go",
+      "top_repo": "youthful_heyrovsky",
+      "top_repo_changes": 3062
+    },
+    "ruby": {
+      "added": 8,
+      "deleted": 4,
+      "changes": 12,
+      "commit_counts": 1
+    },
+    "go": {
+      "added": 2212,
+      "deleted": 1837,
+      "changes": 4049,
+      "commit_counts": 12
+    },
+    "scala": {
+      "added": 404,
+      "deleted": 49,
+      "changes": 453,
+      "commit_counts": 4
+    }
+  },
+  "2023-09": {
+    "go": {
+      "added": 2192,
+      "deleted": 2526,
+      "changes": 4718,
+      "commit_counts": 10
+    },
+    "_meta": {
+      "commit_count": 23,
+      "repo_totals": {
+        "awesome_engelbart": 30,
+        "funny_bose": 6,
+        "serene_cerf": 290,
+        "epic_ride": 10,
+        "friendly_neumann": 4398,
+        "agitated_brown": 307,
+        "friendly_curran": 18
+      },
+      "repo_languages": {
+        "Terraform/Kubernetes/GitHub Actions": 36,
+        "Scala": 102
+      },
+      "repo_name": "friendly_curran",
+      "top_language": "go",
+      "top_repo": "friendly_neumann",
+      "top_repo_changes": 4398
+    },
+    "Terraform/Kubernetes/GitHub Actions": {
+      "added": 16,
+      "deleted": 321,
+      "changes": 337,
+      "commit_counts": 7
+    },
+    "scala": {
+      "added": 2,
+      "deleted": 2,
+      "changes": 4,
+      "commit_counts": 1
+    }
+  },
+  "2023-06": {
+    "go": {
+      "added": 29,
+      "deleted": 8,
+      "changes": 37,
+      "commit_counts": 1
+    },
+    "_meta": {
+      "commit_count": 5,
+      "repo_totals": {
+        "awesome_engelbart": 37,
+        "tender_dubinsky": 351,
+        "bold_bell": 531
+      },
+      "repo_languages": {
+        "Scala": 17,
+        "Terraform/Kubernetes/GitHub Actions": 40
+      },
+      "repo_name": "bold_bell",
+      "top_language": "scala",
+      "top_repo": "bold_bell",
+      "top_repo_changes": 531
+    },
+    "scala": {
+      "added": 644,
+      "deleted": 186,
+      "changes": 830,
+      "commit_counts": 3
+    },
+    "Terraform/Kubernetes/GitHub Actions": {
+      "added": 48,
+      "deleted": 4,
+      "changes": 52
+    }
+  },
+  "2025-08": {
+    "shell": {
+      "added": 257,
+      "deleted": 1,
+      "changes": 258,
+      "commit_counts": 2
+    },
+    "Terraform/Kubernetes/GitHub Actions": {
+      "added": 374,
+      "deleted": 262,
+      "changes": 636,
+      "commit_counts": 6
+    },
+    "_meta": {
+      "commit_count": 19,
+      "repo_totals": {
+        "infallible_elbakyan": 882,
+        "cranky_varahamihira": 441,
+        "priceless_sinoussi": 25,
+        "musing_morse": 8
+      },
+      "repo_languages": {},
+      "repo_name": "musing_morse",
+      "top_language": "Terraform/Kubernetes/GitHub Actions",
+      "top_repo": "infallible_elbakyan",
+      "top_repo_changes": 882
+    },
+    "go": {
+      "added": 382,
+      "deleted": 80,
+      "changes": 462,
+      "commit_counts": 10
+    }
+  },
+  "2025-04": {
+    "go": {
+      "added": 9721,
+      "deleted": 12887,
+      "changes": 22608,
+      "commit_counts": 8
+    },
+    "typescript": {
+      "added": 66,
+      "deleted": 66,
+      "changes": 132
+    },
+    "_meta": {
+      "commit_count": 24,
+      "repo_totals": {
+        "infallible_elbakyan": 17934,
+        "funny_bose": 1,
+        "cranky_varahamihira": 5917,
+        "quizzical_goldwasser": 220,
+        "relaxed_saha": 29,
+        "blissful_visvesvaraya": 677
+      },
+      "repo_languages": {
+        "Go": 1260,
+        "Terraform/Kubernetes/GitHub Actions": 6
+      },
+      "repo_name": "blissful_visvesvaraya",
+      "top_language": "go",
+      "top_repo": "infallible_elbakyan",
+      "top_repo_changes": 17934
+    },
+    "Terraform/Kubernetes/GitHub Actions": {
+      "added": 774,
+      "deleted": 1192,
+      "changes": 1966,
+      "commit_counts": 8
+    },
+    "scala": {
+      "added": 41,
+      "deleted": 31,
+      "changes": 72,
+      "commit_counts": 2
+    }
+  },
+  "2024-10": {
+    "Terraform/Kubernetes/GitHub Actions": {
+      "added": 455,
+      "deleted": 316,
+      "changes": 771,
+      "commit_counts": 20
+    },
+    "shell": {
+      "added": 5,
+      "deleted": 0,
+      "changes": 5,
+      "commit_counts": 1
+    },
+    "ruby": {
+      "added": 53,
+      "deleted": 26,
+      "changes": 79,
+      "commit_counts": 2
+    },
+    "_meta": {
+      "commit_count": 59,
+      "repo_totals": {
+        "infallible_elbakyan": 37,
+        "happy_shtern": 66,
+        "elastic_carver": 418,
+        "determined_mahavira": 705,
+        "confident_haibt": 44,
+        "suspicious_benz": 94,
+        "tender_dubinsky": 1224,
+        "relaxed_easley": 1718,
+        "relaxed_saha": 3743,
+        "blissful_visvesvaraya": 2364,
+        "modest_swirles": 366,
+        "sleepy_moore": 67
+      },
+      "repo_languages": {
+        "Terraform/Kubernetes/GitHub Actions": 291,
+        "Ruby": 7693,
+        "HTML": 1,
+        "JavaScript": 13,
+        "CSS": 9,
+        "Shell": 5
+      },
+      "repo_name": "sleepy_moore",
+      "top_language": "scala",
+      "top_repo": "relaxed_saha",
+      "top_repo_changes": 3743
+    },
+    "go": {
+      "added": 1136,
+      "deleted": 2193,
+      "changes": 3329,
+      "commit_counts": 18
+    },
+    "typescript": {
+      "added": 36,
+      "deleted": 8,
+      "changes": 44,
+      "commit_counts": 4
+    },
+    "scala": {
+      "added": 3104,
+      "deleted": 3514,
+      "changes": 6618,
+      "commit_counts": 8
+    }
+  },
+  "2024-06": {
+    "go": {
+      "added": 226,
+      "deleted": 28,
+      "changes": 254,
+      "commit_counts": 4
+    },
+    "ruby": {
+      "added": 110,
+      "deleted": 202,
+      "changes": 312,
+      "commit_counts": 2
+    },
+    "_meta": {
+      "commit_count": 16,
+      "repo_totals": {
+        "infallible_elbakyan": 51,
+        "vibrant_pike": 310,
+        "cranky_varahamihira": 62,
+        "adoring_chandrasekhar": 191,
+        "blissful_visvesvaraya": 38
+      },
+      "repo_languages": {
+        "Go": 1260,
+        "Terraform/Kubernetes/GitHub Actions": 6
+      },
+      "repo_name": "blissful_visvesvaraya",
+      "top_language": "ruby",
+      "top_repo": "vibrant_pike",
+      "top_repo_changes": 310
+    },
+    "Terraform/Kubernetes/GitHub Actions": {
+      "added": 85,
+      "deleted": 1,
+      "changes": 86,
+      "commit_counts": 4
+    }
+  },
+  "2024-05": {
+    "Terraform/Kubernetes/GitHub Actions": {
+      "added": 343,
+      "deleted": 103,
+      "changes": 446,
+      "commit_counts": 25
+    },
+    "ruby": {
+      "added": 56,
+      "deleted": 301,
+      "changes": 357,
+      "commit_counts": 4
+    },
+    "go": {
+      "added": 1175,
+      "deleted": 385,
+      "changes": 1560,
+      "commit_counts": 3
+    },
+    "scala": {
+      "added": 17,
+      "deleted": 9,
+      "changes": 26,
+      "commit_counts": 2
+    },
+    "shell": {
+      "added": 15,
+      "deleted": 34,
+      "changes": 49
+    },
+    "_meta": {
+      "commit_count": 52,
+      "repo_totals": {
+        "infallible_elbakyan": 852,
+        "vibrant_pike": 272,
+        "epic_ride": 10,
+        "cranky_varahamihira": 1067,
+        "jolly_grothendieck": 33,
+        "blissful_visvesvaraya": 133,
+        "bold_raman": 76
+      },
+      "repo_languages": {
+        "HTML": 1,
+        "TypeScript": 17,
+        "CSS": 2,
+        "Rust": 9
+      },
+      "repo_name": "bold_raman",
+      "top_language": "go",
+      "top_repo": "cranky_varahamihira",
+      "top_repo_changes": 1067
+    },
+    "typescript": {
+      "added": 3,
+      "deleted": 2,
+      "changes": 5,
+      "commit_counts": 3
+    }
+  },
+  "2023-07": {
+    "Terraform/Kubernetes/GitHub Actions": {
+      "added": 49,
+      "deleted": 4,
+      "changes": 53,
+      "commit_counts": 1
+    },
+    "_meta": {
+      "commit_count": 6,
+      "repo_totals": {
+        "upbeat_goldstine": 1,
+        "tender_dubinsky": 4,
+        "bold_bell": 531
+      },
+      "repo_languages": {
+        "Scala": 17,
+        "Terraform/Kubernetes/GitHub Actions": 40
+      },
+      "repo_name": "bold_bell",
+      "top_language": "scala",
+      "top_repo": "bold_bell",
+      "top_repo_changes": 531
+    },
+    "scala": {
+      "added": 442,
+      "deleted": 41,
+      "changes": 483,
+      "commit_counts": 3
+    }
+  },
+  "2024-04": {
+    "javascript": {
+      "added": 17,
+      "deleted": 0,
+      "changes": 17,
+      "commit_counts": 1
+    },
+    "_meta": {
+      "commit_count": 50,
+      "repo_totals": {
+        "priceless_goldstine": 17,
+        "laughing_wilbur": 3,
+        "vibrant_pike": 10,
+        "determined_mahavira": 343,
+        "confident_haibt": 17,
+        "tender_dubinsky": 48,
+        "friendly_neumann": 724,
+        "cranky_varahamihira": 3849,
+        "youthful_heyrovsky": 516,
+        "blissful_visvesvaraya": 910,
+        "mystifying_wu": 15
+      },
+      "repo_languages": {
+        "Terraform/Kubernetes/GitHub Actions": 70,
+        "Shell": 1,
+        "Scala": 206,
+        "Python": 2
+      },
+      "repo_name": "mystifying_wu",
+      "top_language": "go",
+      "top_repo": "cranky_varahamihira",
+      "top_repo_changes": 3849
+    },
+    "scala": {
+      "added": 24,
+      "deleted": 19,
+      "changes": 43,
+      "commit_counts": 4
+    },
+    "Terraform/Kubernetes/GitHub Actions": {
+      "added": 146,
+      "deleted": 243,
+      "changes": 389,
+      "commit_counts": 21
+    },
+    "go": {
+      "added": 4766,
+      "deleted": 1220,
+      "changes": 5986,
+      "commit_counts": 11
+    },
+    "typescript": {
+      "added": 17,
+      "deleted": 0,
+      "changes": 17,
+      "commit_counts": 1
+    }
+  },
+  "2022-06": {
+    "_meta": {
+      "commit_count": 10,
+      "repo_totals": {
+        "kind_mccarthy": 66,
+        "quizzical_goldwasser": 239
+      },
+      "repo_languages": {
+        "Scala": 332,
+        "Terraform/Kubernetes/GitHub Actions": 98,
+        "HTML": 2,
+        "JavaScript": 5,
+        "CSS": 1,
+        "Shell": 1
+      },
+      "repo_name": "quizzical_goldwasser",
+      "top_language": "scala",
+      "top_repo": "quizzical_goldwasser",
+      "top_repo_changes": 239
+    },
+    "scala": {
+      "added": 128,
+      "deleted": 177,
+      "changes": 305,
+      "commit_counts": 5
+    }
+  },
+  "2025-05": {
+    "Terraform/Kubernetes/GitHub Actions": {
+      "added": 311,
+      "deleted": 246,
+      "changes": 557,
+      "commit_counts": 12
+    },
+    "go": {
+      "added": 3744,
+      "deleted": 3568,
+      "changes": 7312,
+      "commit_counts": 26
+    },
+    "_meta": {
+      "commit_count": 47,
+      "repo_totals": {
+        "happy_shtern": 324,
+        "vibrant_pike": 73,
+        "tender_dubinsky": 53,
+        "distracted_robinson": 1159,
+        "cranky_varahamihira": 6095,
+        "quizzical_goldwasser": 141,
+        "relaxed_saha": 2,
+        "blissful_visvesvaraya": 361,
+        "mystifying_wu": 16,
+        "musing_nash": 73
+      },
+      "repo_languages": {
+        "Scala": 297,
+        "Terraform/Kubernetes/GitHub Actions": 47,
+        "Shell": 2,
+        "JavaScript": 1
+      },
+      "repo_name": "musing_nash",
+      "top_language": "go",
+      "top_repo": "cranky_varahamihira",
+      "top_repo_changes": 6095
+    },
+    "swift": {
+      "added": 212,
+      "deleted": 0,
+      "changes": 212
+    },
+    "scala": {
+      "added": 105,
+      "deleted": 111,
+      "changes": 216,
+      "commit_counts": 5
+    }
+  },
+  "2024-03": {
+    "ruby": {
+      "added": 132,
+      "deleted": 110,
+      "changes": 242,
+      "commit_counts": 4
+    },
+    "Terraform/Kubernetes/GitHub Actions": {
+      "added": 5,
+      "deleted": 3,
+      "changes": 8,
+      "commit_counts": 1
+    },
+    "go": {
+      "added": 748,
+      "deleted": 482,
+      "changes": 1230,
+      "commit_counts": 9
+    },
+    "_meta": {
+      "commit_count": 33,
+      "repo_totals": {
+        "vibrant_pike": 303,
+        "tender_dubinsky": 1920,
+        "determined_golick": 127,
+        "friendly_neumann": 856,
+        "blissful_visvesvaraya": 192,
+        "mystifying_wu": 462
+      },
+      "repo_languages": {
+        "Terraform/Kubernetes/GitHub Actions": 70,
+        "Shell": 1,
+        "Scala": 206,
+        "Python": 2
+      },
+      "repo_name": "mystifying_wu",
+      "top_language": "scala",
+      "top_repo": "tender_dubinsky",
+      "top_repo_changes": 1920
+    },
+    "scala": {
+      "added": 1422,
+      "deleted": 958,
+      "changes": 2380,
+      "commit_counts": 9
+    }
+  },
+  "2023-11": {
+    "ruby": {
+      "added": 1334,
+      "deleted": 1125,
+      "changes": 2459,
+      "commit_counts": 10
+    },
+    "Terraform/Kubernetes/GitHub Actions": {
+      "added": 37,
+      "deleted": 42,
+      "changes": 79,
+      "commit_counts": 5
+    },
+    "go": {
+      "added": 393,
+      "deleted": 164,
+      "changes": 557,
+      "commit_counts": 1
+    },
+    "_meta": {
+      "commit_count": 27,
+      "repo_totals": {
+        "vibrant_pike": 2743,
+        "determined_mahavira": 311,
+        "mystifying_wu": 41
+      },
+      "repo_languages": {
+        "Terraform/Kubernetes/GitHub Actions": 70,
+        "Shell": 1,
+        "Scala": 206,
+        "Python": 2
+      },
+      "repo_name": "mystifying_wu",
+      "top_language": "ruby",
+      "top_repo": "vibrant_pike",
+      "top_repo_changes": 2743
+    }
+  },
+  "2023-10": {
+    "ruby": {
+      "added": 57,
+      "deleted": 4,
+      "changes": 61,
+      "commit_counts": 2
+    },
+    "_meta": {
+      "commit_count": 18,
+      "repo_totals": {
+        "vibrant_pike": 61,
+        "tender_dubinsky": 950,
+        "friendly_neumann": 85,
+        "blissful_visvesvaraya": 7104
+      },
+      "repo_languages": {
+        "Go": 1260,
+        "Terraform/Kubernetes/GitHub Actions": 6
+      },
+      "repo_name": "blissful_visvesvaraya",
+      "top_language": "go",
+      "top_repo": "blissful_visvesvaraya",
+      "top_repo_changes": 7104
+    },
+    "go": {
+      "added": 7305,
+      "deleted": 618,
+      "changes": 7923,
+      "commit_counts": 10
+    },
+    "Terraform/Kubernetes/GitHub Actions": {
+      "added": 7,
+      "deleted": 2,
+      "changes": 9,
+      "commit_counts": 1
+    },
+    "scala": {
+      "added": 163,
+      "deleted": 44,
+      "changes": 207,
+      "commit_counts": 1
+    }
+  },
+  "2024-01": {
+    "_meta": {
+      "commit_count": 10,
+      "repo_totals": {
+        "determined_mahavira": 426,
+        "tender_dubinsky": 2,
+        "blissful_visvesvaraya": 61
+      },
+      "repo_languages": {
+        "Go": 1260,
+        "Terraform/Kubernetes/GitHub Actions": 6
+      },
+      "repo_name": "blissful_visvesvaraya",
+      "top_language": "go",
+      "top_repo": "determined_mahavira",
+      "top_repo_changes": 426
+    },
+    "go": {
+      "added": 239,
+      "deleted": 248,
+      "changes": 487,
+      "commit_counts": 4
+    },
+    "Terraform/Kubernetes/GitHub Actions": {
+      "added": 1,
+      "deleted": 1,
+      "changes": 2,
+      "commit_counts": 1
+    }
+  },
+  "2025-02": {
+    "Terraform/Kubernetes/GitHub Actions": {
+      "added": 229,
+      "deleted": 44,
+      "changes": 273,
+      "commit_counts": 7
+    },
+    "_meta": {
+      "commit_count": 60,
+      "repo_totals": {
+        "funny_bose": 7,
+        "admiring_wozniak": 763,
+        "compassionate_elion": 45,
+        "quizzical_stonebraker": 2741,
+        "mystifying_hawking": 296,
+        "focused_bose": 11352,
+        "relaxed_saha": 5932,
+        "blissful_visvesvaraya": 99,
+        "happy_rhodes": 147,
+        "confident_hugle": 8
+      },
+      "repo_languages": {
+        "Terraform/Kubernetes/GitHub Actions": 72,
+        "Ruby": 1870,
+        "HTML": 1,
+        "CSS": 2,
+        "JavaScript": 2
+      },
+      "repo_name": "confident_hugle",
+      "top_language": "scala",
+      "top_repo": "focused_bose",
+      "top_repo_changes": 11352
+    },
+    "go": {
+      "added": 645,
+      "deleted": 330,
+      "changes": 975,
+      "commit_counts": 18
+    },
+    "scala": {
+      "added": 10361,
+      "deleted": 9781,
+      "changes": 20142,
+      "commit_counts": 13
+    }
+  },
+  "2023-05": {
+    "Terraform/Kubernetes/GitHub Actions": {
+      "added": 17,
+      "deleted": 7,
+      "changes": 24,
+      "commit_counts": 4
+    },
+    "_meta": {
+      "commit_count": 5,
+      "repo_totals": {
+        "funny_bose": 18,
+        "friendly_neumann": 2,
+        "priceless_meninsky": 2,
+        "mystifying_wu": 2,
+        "modest_swirles": 76
+      },
+      "repo_languages": {
+        "Terraform/Kubernetes/GitHub Actions": 51,
+        "Go": 523,
+        "TypeScript": 91,
+        "Shell": 1
+      },
+      "repo_name": "modest_swirles",
+      "top_language": "go",
+      "top_repo": "modest_swirles",
+      "top_repo_changes": 76
+    },
+    "go": {
+      "added": 68,
+      "deleted": 8,
+      "changes": 76,
+      "commit_counts": 1
+    }
+  },
+  "2022-11": {
+    "Terraform/Kubernetes/GitHub Actions": {
+      "added": 686,
+      "deleted": 80,
+      "changes": 766,
+      "commit_counts": 14
+    },
+    "_meta": {
+      "commit_count": 28,
+      "repo_totals": {
+        "funny_bose": 20,
+        "epic_ride": 15,
+        "agitated_brown": 2181
+      },
+      "repo_languages": {
+        "Kotlin": 82,
+        "Terraform/Kubernetes/GitHub Actions": 8
+      },
+      "repo_name": "agitated_brown",
+      "top_language": "kotlin",
+      "top_repo": "agitated_brown",
+      "top_repo_changes": 2181
+    },
+    "kotlin": {
+      "added": 1393,
+      "deleted": 57,
+      "changes": 1450,
+      "commit_counts": 9
+    }
+  },
+  "2022-09": {
+    "scala": {
+      "added": 181,
+      "deleted": 19,
+      "changes": 200,
+      "commit_counts": 2
+    },
+    "Terraform/Kubernetes/GitHub Actions": {
+      "added": 44,
+      "deleted": 24,
+      "changes": 68,
+      "commit_counts": 2
+    },
+    "_meta": {
+      "commit_count": 10,
+      "repo_totals": {
+        "kind_mccarthy": 209,
+        "quizzical_goldwasser": 59,
+        "sleepy_moore": 99
+      },
+      "repo_languages": {
+        "Terraform/Kubernetes/GitHub Actions": 291,
+        "Ruby": 7693,
+        "HTML": 1,
+        "JavaScript": 13,
+        "CSS": 9,
+        "Shell": 5
+      },
+      "repo_name": "sleepy_moore",
+      "top_language": "scala",
+      "top_repo": "kind_mccarthy",
+      "top_repo_changes": 209
+    },
+    "ruby": {
+      "added": 60,
+      "deleted": 39,
+      "changes": 99,
+      "commit_counts": 3
+    }
+  },
+  "2022-08": {
+    "scala": {
+      "added": 109,
+      "deleted": 36,
+      "changes": 145,
+      "commit_counts": 3
+    },
+    "Terraform/Kubernetes/GitHub Actions": {
+      "added": 73,
+      "deleted": 68,
+      "changes": 141,
+      "commit_counts": 2
+    },
+    "_meta": {
+      "commit_count": 6,
+      "repo_totals": {
+        "kind_mccarthy": 149,
+        "quizzical_stonebraker": 99,
+        "interesting_heyrovsky": 38
+      },
+      "repo_languages": {
+        "Terraform/Kubernetes/GitHub Actions": 84,
+        "Shell": 2,
+        "Scala": 143,
+        "Python": 1
+      },
+      "repo_name": "interesting_heyrovsky",
+      "top_language": "scala",
+      "top_repo": "kind_mccarthy",
+      "top_repo_changes": 149
+    }
+  },
+  "2022-07": {
+    "scala": {
+      "added": 1,
+      "deleted": 1,
+      "changes": 2,
+      "commit_counts": 1
+    },
+    "_meta": {
+      "commit_count": 1,
+      "repo_totals": {
+        "kind_mccarthy": 2
+      },
+      "repo_languages": {
+        "Terraform/Kubernetes/GitHub Actions": 102,
+        "Scala": 308,
+        "Shell": 1
+      },
+      "repo_name": "kind_mccarthy",
+      "top_language": "scala",
+      "top_repo": "kind_mccarthy",
+      "top_repo_changes": 2
+    }
+  },
+  "2024-11": {
+    "Terraform/Kubernetes/GitHub Actions": {
+      "added": 285,
+      "deleted": 148,
+      "changes": 433,
+      "commit_counts": 2
+    },
+    "go": {
+      "added": 686,
+      "deleted": 86,
+      "changes": 772,
+      "commit_counts": 2
+    },
+    "_meta": {
+      "commit_count": 15,
+      "repo_totals": {
+        "determined_mahavira": 526,
+        "compassionate_elion": 9217,
+        "relaxed_yalow": 134,
+        "relaxed_easley": 1188,
+        "focused_bose": 3,
+        "relaxed_saha": 274,
+        "blissful_visvesvaraya": 249,
+        "musing_nash": 209
+      },
+      "repo_languages": {
+        "Scala": 297,
+        "Terraform/Kubernetes/GitHub Actions": 47,
+        "Shell": 2,
+        "JavaScript": 1
+      },
+      "repo_name": "musing_nash",
+      "top_language": "scala",
+      "top_repo": "compassionate_elion",
+      "top_repo_changes": 9217
+    },
+    "scala": {
+      "added": 5475,
+      "deleted": 5120,
+      "changes": 10595,
+      "commit_counts": 9
+    }
+  },
+  "2023-12": {
+    "go": {
+      "added": 638,
+      "deleted": 471,
+      "changes": 1109,
+      "commit_counts": 7
+    },
+    "_meta": {
+      "commit_count": 17,
+      "repo_totals": {
+        "determined_mahavira": 9,
+        "tender_dubinsky": 421,
+        "great_ritchie": 72,
+        "friendly_neumann": 276,
+        "musing_banach": 231,
+        "youthful_heyrovsky": 367,
+        "blissful_visvesvaraya": 226,
+        "mystifying_wu": 28
+      },
+      "repo_languages": {
+        "Terraform/Kubernetes/GitHub Actions": 70,
+        "Shell": 1,
+        "Scala": 206,
+        "Python": 2
+      },
+      "repo_name": "mystifying_wu",
+      "top_language": "go",
+      "top_repo": "tender_dubinsky",
+      "top_repo_changes": 421
+    },
+    "scala": {
+      "added": 344,
+      "deleted": 105,
+      "changes": 449,
+      "commit_counts": 2
+    },
+    "shell": {
+      "added": 23,
+      "deleted": 49,
+      "changes": 72,
+      "commit_counts": 4
+    }
+  },
+  "2023-01": {
+    "shell": {
+      "added": 8,
+      "deleted": 120,
+      "changes": 128,
+      "commit_counts": 2
+    },
+    "_meta": {
+      "commit_count": 8,
+      "repo_totals": {
+        "suspicious_benz": 56,
+        "modest_swirles": 1028
+      },
+      "repo_languages": {
+        "Terraform/Kubernetes/GitHub Actions": 51,
+        "Go": 523,
+        "TypeScript": 91,
+        "Shell": 1
+      },
+      "repo_name": "modest_swirles",
+      "top_language": "go",
+      "top_repo": "modest_swirles",
+      "top_repo_changes": 1028
+    },
+    "go": {
+      "added": 555,
+      "deleted": 389,
+      "changes": 944,
+      "commit_counts": 3
+    },
+    "Terraform/Kubernetes/GitHub Actions": {
+      "added": 8,
+      "deleted": 4,
+      "changes": 12
+    }
+  },
+  "2025-10": {
+    "_meta": {
+      "commit_count": 22,
+      "repo_totals": {
+        "cranky_varahamihira": 12087,
+        "stupefied_euler": 1255,
+        "blissful_visvesvaraya": 118
+      },
+      "repo_languages": {
+        "Go": 1260,
+        "Terraform/Kubernetes/GitHub Actions": 6
+      },
+      "repo_name": "blissful_visvesvaraya",
+      "top_language": "go",
+      "top_repo": "cranky_varahamihira",
+      "top_repo_changes": 12087
+    },
+    "go": {
+      "added": 3850,
+      "deleted": 4275,
+      "changes": 8125,
+      "commit_counts": 15
+    },
+    "Terraform/Kubernetes/GitHub Actions": {
+      "added": 1389,
+      "deleted": 2691,
+      "changes": 4080,
+      "commit_counts": 4
+    },
+    "python": {
+      "added": 459,
+      "deleted": 0,
+      "changes": 459
+    },
+    "html": {
+      "added": 796,
+      "deleted": 0,
+      "changes": 796,
+      "commit_counts": 1
+    }
+  },
+  "2024-07": {
+    "_meta": {
+      "commit_count": 8,
+      "repo_totals": {
+        "adoring_chandrasekhar": 436,
+        "blissful_visvesvaraya": 129,
+        "mystifying_wu": 729
+      },
+      "repo_languages": {
+        "Terraform/Kubernetes/GitHub Actions": 70,
+        "Shell": 1,
+        "Scala": 206,
+        "Python": 2
+      },
+      "repo_name": "mystifying_wu",
+      "top_language": "scala",
+      "top_repo": "mystifying_wu",
+      "top_repo_changes": 729
+    },
+    "go": {
+      "added": 428,
+      "deleted": 113,
+      "changes": 541,
+      "commit_counts": 5
+    },
+    "Terraform/Kubernetes/GitHub Actions": {
+      "added": 22,
+      "deleted": 20,
+      "changes": 42
+    },
+    "scala": {
+      "added": 88,
+      "deleted": 623,
+      "changes": 711,
+      "commit_counts": 1
+    }
+  },
+  "2022-05": {
+    "_meta": {
+      "commit_count": 3,
+      "repo_totals": {
+        "quizzical_goldwasser": 131
+      },
+      "repo_languages": {
+        "Scala": 332,
+        "Terraform/Kubernetes/GitHub Actions": 98,
+        "HTML": 2,
+        "JavaScript": 5,
+        "CSS": 1,
+        "Shell": 1
+      },
+      "repo_name": "quizzical_goldwasser",
+      "top_language": "scala",
+      "top_repo": "quizzical_goldwasser",
+      "top_repo_changes": 131
+    },
+    "scala": {
+      "added": 103,
+      "deleted": 8,
+      "changes": 111,
+      "commit_counts": 1
+    },
+    "Terraform/Kubernetes/GitHub Actions": {
+      "added": 20,
+      "deleted": 0,
+      "changes": 20
+    }
+  },
+  "2023-08": {
+    "scala": {
+      "added": 157,
+      "deleted": 52,
+      "changes": 209,
+      "commit_counts": 2
+    },
+    "_meta": {
+      "commit_count": 4,
+      "repo_totals": {
+        "tender_dubinsky": 209,
+        "sleepy_moore": 71
+      },
+      "repo_languages": {
+        "Terraform/Kubernetes/GitHub Actions": 291,
+        "Ruby": 7693,
+        "HTML": 1,
+        "JavaScript": 13,
+        "CSS": 9,
+        "Shell": 5
+      },
+      "repo_name": "sleepy_moore",
+      "top_language": "scala",
+      "top_repo": "tender_dubinsky",
+      "top_repo_changes": 209
+    },
+    "ruby": {
+      "added": 57,
+      "deleted": 14,
+      "changes": 71,
+      "commit_counts": 1
+    }
+  },
+  "2024-12": {
+    "Terraform/Kubernetes/GitHub Actions": {
+      "added": 247,
+      "deleted": 26,
+      "changes": 273,
+      "commit_counts": 5
+    },
+    "_meta": {
+      "commit_count": 13,
+      "repo_totals": {
+        "compassionate_elion": 36,
+        "strange_nightingale": 64,
+        "mystifying_hawking": 158,
+        "blissful_visvesvaraya": 26,
+        "confident_hugle": 92,
+        "sleepy_moore": 345
+      },
+      "repo_languages": {
+        "Terraform/Kubernetes/GitHub Actions": 291,
+        "Ruby": 7693,
+        "HTML": 1,
+        "JavaScript": 13,
+        "CSS": 9,
+        "Shell": 5
+      },
+      "repo_name": "sleepy_moore",
+      "top_language": "ruby",
+      "top_repo": "sleepy_moore",
+      "top_repo_changes": 345
+    },
+    "go": {
+      "added": 25,
+      "deleted": 1,
+      "changes": 26,
+      "commit_counts": 2
+    },
+    "ruby": {
+      "added": 45,
+      "deleted": 377,
+      "changes": 422,
+      "commit_counts": 3
+    }
+  },
+  "2025-03": {
+    "_meta": {
+      "commit_count": 12,
+      "repo_totals": {
+        "mystifying_hawking": 332,
+        "relaxed_saha": 209,
+        "musing_nash": 32
+      },
+      "repo_languages": {
+        "Scala": 297,
+        "Terraform/Kubernetes/GitHub Actions": 47,
+        "Shell": 2,
+        "JavaScript": 1
+      },
+      "repo_name": "musing_nash",
+      "top_language": "go",
+      "top_repo": "mystifying_hawking",
+      "top_repo_changes": 332
+    },
+    "go": {
+      "added": 219,
+      "deleted": 113,
+      "changes": 332,
+      "commit_counts": 8
+    },
+    "scala": {
+      "added": 45,
+      "deleted": 196,
+      "changes": 241,
+      "commit_counts": 2
+    }
+  },
+  "2025-07": {
+    "go": {
+      "added": 2110,
+      "deleted": 823,
+      "changes": 2933,
+      "commit_counts": 11
+    },
+    "Terraform/Kubernetes/GitHub Actions": {
+      "added": 37,
+      "deleted": 3,
+      "changes": 40
+    },
+    "_meta": {
+      "commit_count": 11,
+      "repo_totals": {
+        "cranky_varahamihira": 1638,
+        "priceless_sinoussi": 329,
+        "agitated_mayer": 15,
+        "blissful_visvesvaraya": 991
+      },
+      "repo_languages": {
+        "Go": 1260,
+        "Terraform/Kubernetes/GitHub Actions": 6
+      },
+      "repo_name": "blissful_visvesvaraya",
+      "top_language": "go",
+      "top_repo": "cranky_varahamihira",
+      "top_repo_changes": 1638
+    }
+  },
+  "2022-12": {
+    "Terraform/Kubernetes/GitHub Actions": {
+      "added": 26,
+      "deleted": 17,
+      "changes": 43,
+      "commit_counts": 5
+    },
+    "_meta": {
+      "commit_count": 27,
+      "repo_totals": {
+        "quizzical_goldwasser": 16,
+        "agitated_brown": 1734
+      },
+      "repo_languages": {
+        "Kotlin": 82,
+        "Terraform/Kubernetes/GitHub Actions": 8
+      },
+      "repo_name": "agitated_brown",
+      "top_language": "kotlin",
+      "top_repo": "agitated_brown",
+      "top_repo_changes": 1734
+    },
+    "kotlin": {
+      "added": 1493,
+      "deleted": 214,
+      "changes": 1707,
+      "commit_counts": 17
+    }
+  },
+  "2022-10": {
+    "scala": {
+      "added": 271,
+      "deleted": 105,
+      "changes": 376,
+      "commit_counts": 2
+    },
+    "_meta": {
+      "commit_count": 2,
+      "repo_totals": {
+        "quizzical_goldwasser": 376
+      },
+      "repo_languages": {
+        "Scala": 332,
+        "Terraform/Kubernetes/GitHub Actions": 98,
+        "HTML": 2,
+        "JavaScript": 5,
+        "CSS": 1,
+        "Shell": 1
+      },
+      "repo_name": "quizzical_goldwasser",
+      "top_language": "scala",
+      "top_repo": "quizzical_goldwasser",
+      "top_repo_changes": 376
+    }
+  },
+  "2023-02": {
+    "Terraform/Kubernetes/GitHub Actions": {
+      "added": 19,
+      "deleted": 4,
+      "changes": 23,
+      "commit_counts": 1
+    },
+    "go": {
+      "added": 604,
+      "deleted": 195,
+      "changes": 799,
+      "commit_counts": 4
+    },
+    "_meta": {
+      "commit_count": 8,
+      "repo_totals": {
+        "modest_swirles": 822
+      },
+      "repo_languages": {
+        "Terraform/Kubernetes/GitHub Actions": 51,
+        "Go": 523,
+        "TypeScript": 91,
+        "Shell": 1
+      },
+      "repo_name": "modest_swirles",
+      "top_language": "go",
+      "top_repo": "modest_swirles",
+      "top_repo_changes": 822
+    }
+  }
+}
