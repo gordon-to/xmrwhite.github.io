@@ -14,6 +14,7 @@
   -webkit-overflow-scrolling: touch;
   scrollbar-width: none; /* Firefox */
   -ms-overflow-style: none; /* IE and Edge */
+  touch-action: pan-x; /* Lock to horizontal scrolling only */
 }
 
 .carousel-track::-webkit-scrollbar {
