@@ -3,6 +3,7 @@ layout: post
 title:  "Scalable Actions for All"
 date:   2025-12-29 12:16:00
 categories: Github Actions
+excerpt: "Setting up GitHub Actions Runner Controller (ARC) on a cheap VPS with K3s to run scalable, self-hosted GitHub Actions runners with Docker-in-Docker support."
 ---
 
 # Running My GitHub Actions Runners on a Cheap VPS with K3s and the Github Actions ARC 

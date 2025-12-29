@@ -349,14 +349,19 @@ footer a {
 
 .blog-post .post-header {
   margin-bottom: 1.5em;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
 }
 
 .blog-post .post-header h2 {
   color: #2e2e2e;
   font: 400 1.8em/1.2em 'Dosis';
-  margin: 0 0 0.5em 0;
+  margin: 0;
   text-shadow: none;
   text-transform: none;
+  align-self: flex-start;
+  width: 100%;
 }
 
 .blog-post .post-header h2 a {
@@ -370,12 +375,13 @@ footer a {
 }
 
 .blog-post .post-meta {
-  color: #888;
-  font-size: 0.9em;
+  color: #999;
+  font-size: 0.7em;
   font-weight: 300;
-  margin: 0;
+  margin: 0 0 0.5em 0;
   text-transform: uppercase;
   letter-spacing: 0.05em;
+  order: -1;
 }
 
 .blog-post .post-excerpt {
@@ -389,22 +395,15 @@ footer a {
 }
 
 .blog-post .read-more {
-  background: #73a779;
-  border-radius: 20px;
-  color: white;
-  display: inline-block;
-  font-size: 0.9em;
-  font-weight: bold;
-  padding: 8px 16px;
+  color: #73a779;
   text-decoration: none;
-  text-transform: uppercase;
-  transition: all 0.3s ease;
-  letter-spacing: 0.05em;
+  font-weight: bold;
+  transition: color 0.3s ease;
 }
 
 .blog-post .read-more:hover {
-  background: #8cbc8b;
-  transform: translateY(-1px);
+  color: #8cbc8b;
+  text-decoration: underline;
 }
 
 /* Blog navigation current state */
@@ -414,7 +413,7 @@ nav #current {
 }
 
 /* Empty state styling */
-.blog-posts p {
+.blog-posts > p {
   background: #fff;
   border: 1px solid #ddd;
   border-radius: 8px;
