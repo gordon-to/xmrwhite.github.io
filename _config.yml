@@ -11,6 +11,9 @@ github_username:  gordon-to
 # Build settings
 markdown: kramdown
 
+# Enable plugins
+plugins_dir: _plugins
+
 # Plugins
 plugins:
   - jekyll-seo-tag

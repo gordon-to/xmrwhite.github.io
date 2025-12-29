@@ -7,7 +7,7 @@
   <meta name="description" content="{{ site.description }}">
 
   
-  <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
+  <link rel="stylesheet" href="{{ "/css/main.css" | asset_hash | prepend: site.baseurl }}">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 
   {% seo %}
@@ -16,8 +16,8 @@
   <link href='https://fonts.googleapis.com/css?family=Dosis:400,500' rel='stylesheet' type='text/css'>
   <link rel="icon" type="image/png" href="img/favicon.png">
     
-  <script src="js/jquery.min.js"></script>
-  <script src="js/script.js"></script>
+  <script src="{{ "/js/jquery.min.js" | asset_hash | prepend: site.baseurl }}"></script>
+  <script src="{{ "/js/script.js" | asset_hash | prepend: site.baseurl }}"></script>
 
   <!--[if lt IE 9]>
     <script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE9.js"></script>
