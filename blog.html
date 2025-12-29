@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: blog
 title: Blog
 permalink: /blog/
 ---
@@ -19,7 +19,7 @@ permalink: /blog/
     </div>
   </nav>
 
-  <section id="blog" class="blog-page">
+  <section class="blog-page">
     <div class="maxcontainer">
       <h1>Blog</h1>
       
@@ -32,7 +32,7 @@ permalink: /blog/
             </div>
             <div class="post-excerpt">
               {{ post.excerpt }}
-              <p><a href="{{ post.url | prepend: site.baseurl }}" class="read-more">Read more →</a></p>
+              <a href="{{ post.url | prepend: site.baseurl }}" class="read-more">Read more →</a>
             </div>
           </article>
         {% endfor %}

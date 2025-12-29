@@ -1,15 +1,33 @@
 ---
-layout: default
+layout: blog
 ---
-<div class="post">
+<section id="content">
+  <nav id="nav">
+    <div class="maxcontainer">
+      <div id="navleft">
+        <ul id="navigation">
+          <li><a href="{{ site.baseurl }}/">Adam Gordon</a></li>
+          <li><a href="{{ site.baseurl }}/#about">About me</a></li>
+          <li><a href="{{ site.baseurl }}/#projects">My projects</a></li>
+          <li><a href="{{ site.baseurl }}/blog/">Blog</a></li>
+          <li><a href="{{ site.baseurl }}/#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
-  <header class="post-header">
-    <h1 class="post-title">{{ page.title }}</h1>
-    <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
-  </header>
+  <section class="blog-page">
+    <div class="maxcontainer">
+      <div class="post">
+        <header class="post-header">
+          <h1 class="post-title">{{ page.title }}</h1>
+          <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+        </header>
 
-  <article class="post-content">
-    {{ content }}
-  </article>
-
-</div>
+        <article class="post-content">
+          {{ content }}
+        </article>
+      </div>
+    </div>
+  </section>
+</section>
