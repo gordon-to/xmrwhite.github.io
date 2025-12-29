@@ -56,6 +56,7 @@ layout: default
         <div class="carousel-track" id="projectCarousel">
           {% assign sorted_projects = site.projects | sort: 'to_date' | reverse %}
           {% for project in sorted_projects %}
+            {% unless project.disabled %}
             <div class="carousel-card">
               {% if project.external_url %}
                 <a href="{{ project.external_url }}" class="card-link">
@@ -78,6 +79,7 @@ layout: default
                 </div>
               {% endif %}
             </div>
+            {% endunless %}
           {% endfor %}
         </div>
       </div>
