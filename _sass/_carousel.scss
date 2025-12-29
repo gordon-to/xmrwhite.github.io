@@ -1,0 +1,90 @@
+/* Carousel Container */
+.carousel-container {
+  width: 100%;
+  overflow: hidden;
+  padding: 30px 0 40px 0; /* Extra padding for shadows */
+}
+
+.carousel-track {
+  display: flex;
+  gap: 20px;
+  padding: 0 20px;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE and Edge */
+}
+
+.carousel-track::-webkit-scrollbar {
+  display: none; /* Chrome, Safari and Opera */
+}
+
+/* Carousel Cards */
+.carousel-card {
+  flex: 0 0 256px;
+  width: 256px;
+  min-height: 300px;
+  background: #8cbc8b; /* Original goal class green */
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15), 0 2px 4px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  cursor: pointer;
+}
+
+.carousel-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2), 0 4px 8px rgba(0, 0, 0, 0.12);
+  background: #afcb9e; /* Original goal hover color */
+}
+
+.card-link,
+.card-content {
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+  color: inherit;
+}
+
+.card-inner {
+  padding: 24px;
+  text-align: center;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-inner p {
+  margin-top: 16px;
+  font-size: 14px;
+  line-height: 1.4;
+  color: #666;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .carousel-card {
+    flex: 0 0 240px;
+    width: 240px;
+  }
+  
+  .carousel-track {
+    padding: 0 16px;
+    gap: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .carousel-card {
+    flex: 0 0 220px;
+    width: 220px;
+  }
+  
+  .carousel-track {
+    padding: 0 12px;
+    gap: 12px;
+  }
+}

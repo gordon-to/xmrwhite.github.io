@@ -18,3 +18,8 @@ plugins_dir: _plugins
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
+
+# Collections
+collections:
+  projects:
+    output: false

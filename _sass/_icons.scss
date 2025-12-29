@@ -1,0 +1,40 @@
+.icon-wrapper {
+  width: 160px;
+  height: 160px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.icon-wrapper .crop-img {
+  transform: scale(0.5);
+}
+
+.crop-img {
+  width: 309px;
+  height: 263px;
+  object-fit: none;
+}
+
+.crop-systems {
+  object-position: -757px -392px;
+}
+.crop-video {
+    object-position: -425px -82px;
+}
+
+.crop-leadership {
+  object-position: -72px -87px;
+}
+
+.crop-ecommerce {
+  object-position: -69px -391px;
+}
+.crop-trading {
+  object-position: -418px -391px;
+}
+
+.crop-calendar {
+  object-position: -757px -392px;
+}
