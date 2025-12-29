@@ -1,0 +1,41 @@
+version: 2
+updates:
+  # Update Bundler dependencies (Ruby gems)
+  - package-ecosystem: "bundler"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+      day: "monday"
+      time: "09:00"
+    cooldown:
+      default-days: 7
+    open-pull-requests-limit: 2
+    groups:
+      bundler-dependencies:
+        patterns:
+          - "*"
+    reviewers:
+      - "@xmrwhite"
+    assignees:
+      - "@xmrwhite"
+    rebase-strategy: "auto"
+
+  # Update GitHub Actions
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+      day: "monday"
+      time: "09:00"
+    cooldown:
+      default-days: 7
+    open-pull-requests-limit: 2
+    groups:
+      github-actions-dependencies:
+        patterns:
+          - "*"
+    reviewers:
+      - "@xmrwhite"
+    assignees:
+      - "@xmrwhite"
+    rebase-strategy: "auto"

@@ -1,0 +1,46 @@
+---
+layout: default
+title: Blog
+permalink: /blog/
+---
+
+<section id="content">
+  <nav id="nav">
+    <div class="maxcontainer">
+      <div id="navleft">
+        <ul id="navigation">
+          <li><a href="{{ site.baseurl }}/">Adam Gordon</a></li>
+          <li><a href="{{ site.baseurl }}/#about">About me</a></li>
+          <li><a href="{{ site.baseurl }}/#projects">My projects</a></li>
+          <li id="current">Blog</li>
+          <li><a href="{{ site.baseurl }}/#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <section id="blog" class="blog-page">
+    <div class="maxcontainer">
+      <h1>Blog</h1>
+      
+      <div class="blog-posts">
+        {% for post in site.posts %}
+          <article class="blog-post">
+            <div class="post-header">
+              <h2><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
+              <p class="post-meta">{{ post.date | date: "%B %-d, %Y" }}{% if post.author %} • {{ post.author }}{% endif %}{% if post.categories %} • {{ post.categories | join: ', ' }}{% endif %}</p>
+            </div>
+            <div class="post-excerpt">
+              {{ post.excerpt }}
+              <p><a href="{{ post.url | prepend: site.baseurl }}" class="read-more">Read more →</a></p>
+            </div>
+          </article>
+        {% endfor %}
+        
+        {% if site.posts.size == 0 %}
+          <p>No blog posts yet. Check back later!</p>
+        {% endif %}
+      </div>
+    </div>
+  </section>
+</section>

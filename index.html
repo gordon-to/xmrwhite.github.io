@@ -20,6 +20,7 @@ layout: default
           <li id="title">Adam Gordon</li>
           <li id="navabout">About me</li>
           <li id="navprojects">My projects</li>
+          <li id="navblog">Blog</li>
           <li id="navcontact">Contact</li>
         </ul>
       </div>
@@ -89,6 +90,37 @@ layout: default
           </a>
         </article>
       </section>
+    </div>
+  </section>
+
+  <section id="blog">
+    <div class="maxcontainer">
+      <h1 style="margin-top: .5em">Blog</h1>
+      
+      <div class="blog-posts">
+        {% for post in site.posts limit:3 %}
+          <article class="blog-post">
+            <div class="post-header">
+              <h2><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
+              <p class="post-meta">{{ post.date | date: "%B %-d, %Y" }}</p>
+            </div>
+            <div class="post-excerpt">
+              {{ post.excerpt }}
+              <p><a href="{{ post.url | prepend: site.baseurl }}" class="read-more">Read more →</a></p>
+            </div>
+          </article>
+        {% endfor %}
+        
+        {% if site.posts.size > 3 %}
+          <div style="text-align: center; margin-top: 2em;">
+            <a href="{{ site.baseurl }}/blog/" class="view-all-posts">View All Posts →</a>
+          </div>
+        {% endif %}
+        
+        {% if site.posts.size == 0 %}
+          <p>No blog posts yet. Check back later!</p>
+        {% endif %}
+      </div>
     </div>
   </section>
 

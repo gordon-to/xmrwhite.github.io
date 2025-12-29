@@ -1,0 +1,142 @@
+---
+layout: post
+title:  "Scalable Actions for All"
+date:   2025-12-29 12:16:00
+categories: Github Actions
+---
+
+# Running My GitHub Actions Runners on a Cheap VPS with K3s and the Github Actions ARC 
+
+Can I run my own GitHub Actions runners, on a single cheap VPS, using the latest tools?
+
+This post is about how that actually went.
+
+
+The High-Level Plan: 
+
+The architecture I had in mind was pretty reasonable:
+ - Use my existing VPS running docker with enough ram for a few runners
+ - [GitHub Actions Runner Controller (ARC)][https://docs.github.com/en/actions/tutorials/use-actions-runner-controller/quickstart] to manage runners
+ - Docker in Docker support, because most real CI pipelines need Docker, but I don't want to deal with comflicting port mappings
+ - Auto-scaling runners, I'd like to be able to run some concurrent jobs and not get stuck in waiting hell.
+
+
+## Choosing Authentication: GitHub App, Not Tokens
+
+One early decision that paid off was using a GitHub App instead of a personal access token.
+
+GitHub strongly nudges you in this direction now, and for good reason:
+ - Scoped permissions
+ - Easier rotation
+ - No long-lived user credentials floating around (and no debugging when they exipire)
+
+Creating the app itself is straightforward, and GitHub’s documentation walks through it well. This is the guide I followed and would recommend bookmarking:
+
+https://docs.github.com/en/apps/creating-github-apps/creating-a-github-app
+
+The only thing I’ll emphasize here — because it does matter later — is that:
+ - The App must be installed on the org (or repo)
+ - You need the App ID, Installation ID, and private key
+ - Those values must be available to ARC, this is easiest as a Kubernetes secret
+
+I also chose to make the app only installable on the org i was targeting, i can create as many apps as i need for each org i want to use my own runners on
+
+
+## K3s Was Easy...
+
+Installing K3s on a VPS was refreshingly boring. That’s a compliment.
+
+Within minutes I had:
+ - A single-node cluster
+ - A working kubeconfig
+ - Core system pods running
+
+At this point, I installed cert-manager via Helm (as required by ARC), installed the ARC controller via Helm, and created my runner scale set.
+
+Everything looked healthy.
+
+And yet… no runners appeared in GitHub. 
+ - No failed pods.
+ - No crashing containers.
+
+Just… nothing.
+
+Eventually, the logs told the real story.
+
+ARC was trying to talk to the GitHub API — and failing, butcouldn’t resolve api.github.com.
+
+In my case:
+ - CoreDNS was running
+ - The kube-dns service existed
+ - Pods could talk to each other
+ - But DNS queries from pods never made it out of the node
+
+What bit me here is that I had firewalld set up for docker on the host already, and had locked it down to avoid accidentaly exposing containers to the internet (and becoming a monero miner)
+
+Once I added the k3s interfaced to the correct zone using firewall-cmd i was able to run a busybox image and verify that dns was working in pods.
+
+## The Short Short Version
+
+Instal cert-manager
+```sh
+helm install \
+  cert-manager oci://quay.io/jetstack/charts/cert-manager \
+  --version v1.19.2 \
+  --namespace cert-manager \
+  --create-namespace \
+  --set crds.enabled=true
+```
+
+Install arc-system
+
+```sh
+helm install arc \
+    --namespace "arc-systems" \
+    --create-namespace \
+    oci://ghcr.io/actions/actions-runner-controller-charts/gha-runner-scale-set-controller
+```
+
+Create the secret using the values from earlier
+
+```sh
+kubectl create namespace my-org-arc
+kubectl create secret generic my-org-arc-github-app \
+  -n my-org-arc \
+  --from-literal=github_app_id='*****' \
+  --from-literal=github_app_installation_id='**********' \
+  --from-file=github_app_private_key=./my-org-arc.2025-12-28.private-key.pem
+```
+
+The final helm values that i used and saved as `arcvalues.yaml`
+
+```yaml
+githubConfigUrl: "https://github.com/my-org"
+githubConfigSecret: my-org-arc-github-app
+minRunners: 2
+maxRunners: 6
+containerMode:
+  type: dind
+```
+
+Install the runner scale set
+
+```sh
+helm install my-org-arc \
+  oci://ghcr.io/actions/actions-runner-controller-charts/gha-runner-scale-set \
+  -n my-org-arc -f arcvalues.yaml
+```
+
+and thats it, now you can use an action and set runs-on to your own runners
+
+```yaml
+name: Actions Runner Controller Demo
+on:
+  workflow_dispatch:
+
+jobs:
+  Explore-GitHub-Actions:
+    # You need to use the INSTALLATION_NAME from the previous step
+    runs-on: my-org-arc
+    steps:
+    - run: echo "🎉 This job uses runner scale set runners!"
+```

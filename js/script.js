@@ -32,6 +32,11 @@ $(document).ready(function() {
     else scrollTo('#about', 0);
   });
   $('#navprojects').click(function() { scrollTo('#projects', 50); });
+  $('#navblog').click(function() { 
+    // If we're on a small screen or want to go to dedicated blog page, uncomment next line:
+    // window.location.href = '/blog/';
+    scrollTo('#blog', 50); 
+  });
   $('#navvote').click(function() { scrollTo('#vote', 50); });
   $('#navcontact').click(function() { scrollTo('#contact', 50); });
   $('#navright').click(function() { scrollTo('#vote', 50); });
