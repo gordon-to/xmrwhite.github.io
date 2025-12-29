@@ -71,7 +71,7 @@ Jekyll::Hooks.register :site, :post_write do |site|
     end
     
     # Find JS hash references
-    js_matches = content.scan(/\/js\/(jquery\.min|script)-([a-f0-9]{8})\.js/)
+    js_matches = content.scan(/\/js\/(jquery\.min|\w+)-([a-f0-9]{8})\.js/)
     js_matches.each do |match|
       js_name = match[0]
       hash = match[1]
