@@ -17,7 +17,7 @@ The High-Level Plan:
 
 The architecture I had in mind was pretty reasonable:
  - Use my existing VPS running docker with enough ram for a few runners
- - [GitHub Actions Runner Controller (ARC)][https://docs.github.com/en/actions/tutorials/use-actions-runner-controller/quickstart] to manage runners
+ - [GitHub Actions Runner Controller (ARC)](https://docs.github.com/en/actions/tutorials/use-actions-runner-controller/quickstart) to manage runners
  - Docker in Docker support, because most real CI pipelines need Docker, but I don't want to deal with comflicting port mappings
  - Auto-scaling runners, I'd like to be able to run some concurrent jobs and not get stuck in waiting hell.
 
@@ -31,16 +31,17 @@ GitHub strongly nudges you in this direction now, and for good reason:
  - Easier rotation
  - No long-lived user credentials floating around (and no debugging when they exipire)
 
-Creating the app itself is straightforward, and GitHub’s documentation walks through it well. This is the guide I followed and would recommend bookmarking:
+Creating the app itself is straightforward, and GitHub’s [documentation](https://docs.github.com/en/apps/creating-github-apps/creating-a-github-app) walks through it well.
 
-https://docs.github.com/en/apps/creating-github-apps/creating-a-github-app
-
-The only thing I’ll emphasize here — because it does matter later — is that:
- - The App must be installed on the org (or repo)
+Important notes here:
+ - The App must be installed on the org (or repo) that you will attach the runners to
  - You need the App ID, Installation ID, and private key
- - Those values must be available to ARC, this is easiest as a Kubernetes secret
+   - the App ID is on the app page
+   - The Installation ID is in the url of the installation
+   - the private key should be automatically downloaded when you generate it
+ - Those values must be available to ARC Runner Scale Sets, this is easiest as a Kubernetes secret
 
-I also chose to make the app only installable on the org i was targeting, i can create as many apps as i need for each org i want to use my own runners on
+I also chose to make the app only installable on the org i was targeting, i can create as many apps as i need for each org i want to set up.
 
 
 ## K3s Was Easy...
@@ -141,3 +142,6 @@ jobs:
     steps:
     - run: echo "🎉 This job uses runner scale set runners!"
 ```
+
+You can use a single arc-system operator and multiple scale sets to deploy runners for multiple repos or orgs from a single cluster. 
+This can also be used to create different flavours of runners if you want to create some runners that only have a small amount of CPU/RAM for linting and pr checks while reserving resources for things like large builds or e2e testing

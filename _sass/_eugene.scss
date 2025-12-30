@@ -1,3 +1,8 @@
+/* CSS Custom Properties */
+:root {
+  --header-height: 40vh;
+}
+
 body, html {
   background: #292929;
   color: #333;
@@ -11,28 +16,29 @@ body, html {
   background: #a4a4a4;
 }
 h1 {
-  font: 2em/1em 'Dosis';
+  font: 2em/1.3em 'Dosis';
   margin: 0;
   text-align: center;
   text-transform: uppercase;
 }
 h2 {
-  font: 400 2.2em/0.5em 'Dosis';
+  font: 400 2.2em/1.2em 'Dosis';
   text-shadow: 0 1px 0 #333;
   text-transform: uppercase;
 }
 h3 {
-  font: 1.5em/1em 'Dosis';
+  font: 1.5em/1.3em 'Dosis';
   letter-spacing: 0.1em;
 }
 .sticky {
-  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.25);
-  left: 0;
-  position: fixed;
+  position: fixed !important;
   top: 0;
-  transition: all 0.3s;
+  left: 0;
   width: 100%;
+  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.25);
+  transition: all 0.3s ease-out;
   z-index: 100;
+  transform: translateY(0);
 }
 .contentpush {
   padding-top: 5em !important;
@@ -117,6 +123,7 @@ nav {
   font-size: 0.75em;
   text-transform: uppercase;
   width: 100%;
+  transition: all 0.3s ease-out;
 }
 #navleft {
   display: inline-block;
@@ -313,7 +320,24 @@ footer a {
   left: 0;
   width: 100%;
   z-index: 1000;
+  transition: all 0.3s ease-out;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Enhanced blog navigation with scroll effects */
+.blog-nav-scrolled {
+  backdrop-filter: blur(10px) !important;
+  background: rgba(115, 167, 121, 0.95) !important;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15) !important;
+}
+
+.blog-page #nav #navigation li {
+  transition: all 0.2s ease;
+}
+
+.blog-page #nav #navigation li:hover {
+  background: rgba(255, 255, 255, 0.1);
+  transform: translateY(-1px);
 }
 
 .blog-page {
